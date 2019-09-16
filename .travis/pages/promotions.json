@@ -1,0 +1,25 @@
+{
+  "homepage": "https://github.com/Leo3418/mckeyboardfix/releases",
+  "promos": {
+    "1.12.2-latest": "<mod-ver>",
+    "1.12.2-recommended": "<mod-ver>",
+    "1.12.1-latest": "<mod-ver>",
+    "1.12.1-recommended": "<mod-ver>",
+    "1.12-latest": "<mod-ver>",
+    "1.12-recommended": "<mod-ver>",
+    "1.11.2-latest": "<mod-ver>",
+    "1.11.2-recommended": "<mod-ver>",
+    "1.11-latest": "<mod-ver>",
+    "1.11-recommended": "<mod-ver>",
+    "1.10.2-latest": "<mod-ver>",
+    "1.10.2-recommended": "<mod-ver>",
+    "1.10-latest": "<mod-ver>",
+    "1.10-recommended": "<mod-ver>",
+    "1.9.4-latest": "<mod-ver>",
+    "1.9.4-recommended": "<mod-ver>",
+    "1.9-latest": "<mod-ver>",
+    "1.9-recommended": "<mod-ver>",
+    "1.8.9-latest": "<mod-ver>",
+    "1.8.9-recommended": "<mod-ver>"
+  }
+}

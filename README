@@ -1,0 +1,24 @@
+This directory contains the sources of Minecraft Keyboard Fix.
+
+Minecraft Keyboard Fix is a lightweight Minecraft Forge mod that performs
+keyboard fix for Minecraft running on GNU/Linux distributions.
+
+Users who play Minecraft on GNU/Linux might encounter an issue where the
+"Shift-2" and "Shift-6" key combinations are not working, which is resolved by
+this mod.
+
+Minecraft Keyboard Fix supports Minecraft 1.8.9, 1.9.x, 1.10.x, 1.11.x, and
+1.12.x. Since the keyboard issue no longer exists since Minecraft 1.13, this
+mod does not, and needs not, be ported to that version or any later version of
+the game.
+
+Should any other keyboard issue in Minecraft on GNU/Linux be discovered, code
+that fixes it could be added to this mod if available.
+
+You can build and install this mod as if you are building and installing a
+common Minecraft Forge mod. If you are unfamiliar with this procedure or
+encounter any problem, you can see the file INSTALL.md to learn more about the
+building and installation process.
+
+Minecraft Keyboard Fix is free software. See the file COPYING for copying
+conditions.

@@ -1,0 +1,12 @@
+[
+{
+  "modid": "mckeyboardfix",
+  "name": "Minecraft Keyboard Fix",
+  "description": "This mod fixes keyboard issues in Minecraft on GNU/Linux, including Shift-2 and Shift-6 not working.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Leo3418/mckeyboardfix",
+  "updateUrl": "https://github.com/Leo3418/mckeyboardfix/releases",
+  "authorList": ["Leo3418"]
+}
+]
