@@ -65,25 +65,16 @@ public final class MCKeyboardFix {
          * `^` key, and Shift-2 is interpreted as a press on the `@` key, and
          * the numeric key is never detected as pressed in these cases. For
          * most keyboards, this does not make sense since they do not have
-         * dedicated `^` or `@` key, but indeed, this is what happens.
-         *
-         * To fix this issue, we just need to emulate a press on the numeric
-         * key. But merely doing this is not enough because after we emulate a
-         * press on key `x`, every key combination from Shift-1 to Shift-`x-1`
-         * does not work until the user presses the combination again, so we
-         * also need to emulate those presses to mitigate this side effect of
-         * the fix.
+         * dedicated `^` or `@` key, but indeed, this is what happens. To fix
+         * this issue, we just need to emulate a press on the numeric key.
          */
         switch (keyCode) {
-            case KEY_CIRCUMFLEX: // Shift-6
+            case KEY_CIRCUMFLEX: { // Shift-6
                 pressKey(KEY_6);
-                pressKey(KEY_5);
-                pressKey(KEY_4);
-                pressKey(KEY_3);
-                // Fall through
-            case KEY_AT: // Shift-2
+            } break;
+            case KEY_AT: { // Shift-2
                 pressKey(KEY_2);
-                pressKey(KEY_1);
+            } break;
         }
     }
 
